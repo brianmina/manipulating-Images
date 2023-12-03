@@ -7,7 +7,7 @@ import os
 from PIL import Image
 
 SQUARE_FIT_SIZE = 900
-LOGO_FILENAME = 'catlogosized.png'
+LOGO_FILENAME = 'zophie.png.png'
 
 logoIm = Image.open(LOGO_FILENAME)
 logoWidth, logoHeight = logoIm.size
