@@ -29,9 +29,9 @@ squareBackground.paste(im, (0,start_position))
 
 squareBackground.save(f"edited_{filename}")
 
-qr_code = "https://www.soarteam.com/waiver"
+qr_code = "https://waiver.soarteam.com/"
 student_qr = segno.make_qr(qr_code, error="h")
-student_qr.to_artistic(background='edited_SOAR.png', target='synergy_finale_waiver.png', scale=13)
+student_qr.to_artistic(background='edited_SOAR.png', target='synergy_subdomain_waiver.png', scale=13)
 # student_qr.save(
 #     f"dragonboat_festival_logo.png",
 #     border=2, scale=10, dark='darkred', light='lightblue'
