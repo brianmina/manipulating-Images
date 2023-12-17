@@ -29,9 +29,9 @@ squareBackground.paste(im, (0,start_position))
 
 squareBackground.save(f"edited_{filename}")
 
-qr_code = "https://form.jotform.com/233364476993167"
-student_qr = segno.make_qr(qr_code)
-student_qr.to_artistic(background='edited_SOAR.png', target='dragonboat_festival_team_signup.png', scale=10)
+qr_code = "https://www.soarteam.com/waiver"
+student_qr = segno.make_qr(qr_code, error="h")
+student_qr.to_artistic(background='edited_SOAR.png', target='synergy_finale_waiver.png', scale=13)
 # student_qr.save(
 #     f"dragonboat_festival_logo.png",
 #     border=2, scale=10, dark='darkred', light='lightblue'
